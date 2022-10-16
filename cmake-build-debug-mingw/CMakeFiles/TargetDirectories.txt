@@ -1,0 +1,3 @@
+C:/Users/DAN/CLionProjects/grafika_komputerowa/cmake-build-debug-mingw/CMakeFiles/untitled2.dir
+C:/Users/DAN/CLionProjects/grafika_komputerowa/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/DAN/CLionProjects/grafika_komputerowa/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
