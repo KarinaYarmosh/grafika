@@ -437,14 +437,20 @@ CMakeFiles/untitled2.dir/src/main.cpp.obj: ../src/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
   ../src/Render_Utils.h \
-  ../src/ex_1_1.hpp \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
-  C:/mingw64/x86_64-w64-mingw32/include/time.h \
-  C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h
+  ../src/ex_1_2.hpp \
+  ../src/Shader_Loader.cpp \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  ../src/Render_Utils.cpp
 
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
@@ -657,6 +663,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/fwd.hpp:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/vec2.hpp:
@@ -680,6 +688,8 @@ C:/mingw64/x86_64-w64-mingw32/include/glm/ext/vector_double2.hpp:
 C:/mingw64/x86_64-w64-mingw32/include/glm/ext/vector_uint2.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/ext/vector_uint2_sized.hpp:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
@@ -768,6 +778,8 @@ C:/mingw64/x86_64-w64-mingw32/include/glm/detail/type_mat2x2.hpp:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/detail/type_mat2x2.inl:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/matrix.hpp:
 
@@ -869,6 +881,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/ext/matrix_float4x2_precision.hpp:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/glm/mat4x3.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/ext/matrix_double4x3.hpp:
@@ -906,8 +920,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/detail/func_exponential.inl:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
 
 C:/mingw64/x86_64-w64-mingw32/include/glm/detail/func_vector_relational.inl:
 
@@ -1017,6 +1029,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h:
 
+../src/Shader_Loader.cpp:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sys/types.h:
@@ -1072,8 +1086,6 @@ C:/mingw64/x86_64-w64-mingw32/include/profileapi.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h:
 
@@ -1132,8 +1144,6 @@ C:/mingw64/x86_64-w64-mingw32/include/interlockedapi.h:
 C:/mingw64/x86_64-w64-mingw32/include/handleapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/ioapiset.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
 
@@ -1235,6 +1245,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
 
+../src/Render_Utils.cpp:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h:
@@ -1313,12 +1325,18 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio:
+../src/ex_1_2.hpp:
 
-../src/ex_1_1.hpp:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/time.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
-C:/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:

@@ -151,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=untitled2
+CMAKE_PROJECT_NAME:STATIC=grafika_komputerowa
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/mingw64/bin/ranlib.exe
@@ -244,6 +244,15 @@ OPENGL_gl_LIBRARY:STRING=opengl32
 
 //GLU library for win32
 OPENGL_glu_LIBRARY:STRING=glu32
+
+//Value Computed by CMake
+grafika_komputerowa_BINARY_DIR:STATIC=C:/Users/DAN/CLionProjects/grafika_komputerowa/cmake-build-debug-mingw
+
+//Value Computed by CMake
+grafika_komputerowa_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+grafika_komputerowa_SOURCE_DIR:STATIC=C:/Users/DAN/CLionProjects/grafika_komputerowa
 
 //Value Computed by CMake
 untitled2_BINARY_DIR:STATIC=C:/Users/DAN/CLionProjects/grafika_komputerowa/cmake-build-debug-mingw

@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled2
+# Target rules for targets named grafika_komputerowa
 
 # Build rule for target.
-untitled2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled2
-.PHONY : untitled2
+grafika_komputerowa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 grafika_komputerowa
+.PHONY : grafika_komputerowa
 
 # fast build rule for target.
-untitled2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
-.PHONY : untitled2/fast
+grafika_komputerowa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/build
+.PHONY : grafika_komputerowa/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,7 +149,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled2
+	@echo ... grafika_komputerowa
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

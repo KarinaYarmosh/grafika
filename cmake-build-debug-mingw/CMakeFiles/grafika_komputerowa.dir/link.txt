@@ -1,0 +1,3 @@
+"D:\Program files\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\grafika_komputerowa.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\grafika_komputerowa.dir/objects.a @CMakeFiles\grafika_komputerowa.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\grafika_komputerowa.dir/objects.a -Wl,--no-whole-archive -o grafika_komputerowa.exe -Wl,--out-implib,libgrafika_komputerowa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\grafika_komputerowa.dir\linklibs.rsp

@@ -3,8 +3,8 @@
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 
-#include "Shader_Loader.h"
-#include "Render_Utils.h"
+#include "Shader_Loader.cpp"
+#include "Render_Utils.cpp"
 
 GLuint program; // Shader ID
 
@@ -53,7 +53,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 void init(GLFWwindow* window) {
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-    program = shaderLoader.CreateProgram("shaders/shader_1_1.vert", "shaders/shader_1_1.frag");
+    program = shaderLoader.CreateProgram("../shaders/shader_1_1.vert", "../shaders/shader_1_1.frag");
 
     //Przekopiuj kod do ladowania z poprzedniego zadania
 }

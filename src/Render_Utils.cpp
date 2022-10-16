@@ -1,6 +1,6 @@
 #include "Render_Utils.h"
 
-#include <GL/freeglut.h>
+#include <Gl/freeglut.h>
 #include <iostream>
 
 void Core::drawVAO(GLuint VAO, int numVertices)

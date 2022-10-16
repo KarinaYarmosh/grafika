@@ -180,8 +180,8 @@ CMakeFiles/untitled2.dir/src/main.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/glm/integer.hpp \
  C:/mingw64/x86_64-w64-mingw32/include/glm/detail/func_integer.inl \
  C:\Users\DAN\CLionProjects\grafika_komputerowa\src\Shader_Loader.h \
- C:/mingw64/x86_64-w64-mingw32/include/GL/freeglut.h \
- C:/mingw64/x86_64-w64-mingw32/include/GL/freeglut_std.h \
+ C:/mingw64/x86_64-w64-mingw32/include/Gl/freeglut.h \
+ C:/mingw64/x86_64-w64-mingw32/include/Gl/freeglut_std.h \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/mingw64/x86_64-w64-mingw32/include/excpt.h \
@@ -336,8 +336,8 @@ CMakeFiles/untitled2.dir/src/main.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/mingw64/x86_64-w64-mingw32/include/mcx.h \
  C:/mingw64/x86_64-w64-mingw32/include/imm.h \
- C:/mingw64/x86_64-w64-mingw32/include/GL/freeglut_ext.h \
- C:/mingw64/x86_64-w64-mingw32/include/GL/freeglut_ucall.h \
+ C:/mingw64/x86_64-w64-mingw32/include/Gl/freeglut_ext.h \
+ C:/mingw64/x86_64-w64-mingw32/include/Gl/freeglut_ucall.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
@@ -435,11 +435,17 @@ CMakeFiles/untitled2.dir/src/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
  C:\Users\DAN\CLionProjects\grafika_komputerowa\src\Render_Utils.h \
- C:\Users\DAN\CLionProjects\grafika_komputerowa\src\ex_1_1.hpp \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
- C:/mingw64/x86_64-w64-mingw32/include/time.h \
- C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h
+ C:\Users\DAN\CLionProjects\grafika_komputerowa\src\ex_1_2.hpp \
+ C:\Users\DAN\CLionProjects\grafika_komputerowa\src\Shader_Loader.cpp \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ C:\Users\DAN\CLionProjects\grafika_komputerowa\src\Render_Utils.cpp

@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\DAN\CLionProjects\grafika_komputerowa\cmake-build-de
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/untitled2.dir/all
+all: CMakeFiles/grafika_komputerowa.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/untitled2.dir/clean
+clean: CMakeFiles/grafika_komputerowa.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled2.dir
+# Target rules for target CMakeFiles/grafika_komputerowa.dir
 
 # All Build rule for target.
-CMakeFiles/untitled2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\DAN\CLionProjects\grafika_komputerowa\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2 "Built target untitled2"
-.PHONY : CMakeFiles/untitled2.dir/all
+CMakeFiles/grafika_komputerowa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\DAN\CLionProjects\grafika_komputerowa\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2 "Built target grafika_komputerowa"
+.PHONY : CMakeFiles/grafika_komputerowa.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled2.dir/rule: cmake_check_build_system
+CMakeFiles/grafika_komputerowa.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DAN\CLionProjects\grafika_komputerowa\cmake-build-debug-mingw\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/untitled2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/grafika_komputerowa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DAN\CLionProjects\grafika_komputerowa\cmake-build-debug-mingw\CMakeFiles 0
-.PHONY : CMakeFiles/untitled2.dir/rule
+.PHONY : CMakeFiles/grafika_komputerowa.dir/rule
 
 # Convenience name for target.
-untitled2: CMakeFiles/untitled2.dir/rule
-.PHONY : untitled2
+grafika_komputerowa: CMakeFiles/grafika_komputerowa.dir/rule
+.PHONY : grafika_komputerowa
 
 # clean rule for target.
-CMakeFiles/untitled2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/clean
-.PHONY : CMakeFiles/untitled2.dir/clean
+CMakeFiles/grafika_komputerowa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\grafika_komputerowa.dir\build.make CMakeFiles/grafika_komputerowa.dir/clean
+.PHONY : CMakeFiles/grafika_komputerowa.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

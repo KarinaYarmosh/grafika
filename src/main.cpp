@@ -4,7 +4,7 @@
 
 #include "Shader_Loader.h"
 #include "Render_Utils.h"
-#include "ex_1_1.hpp"
+#include "ex_1_6.hpp"
 
 
 
@@ -36,7 +36,8 @@ int main(int argc, char ** argv)
     init(window);
 
     // uruchomienie glownej petli
-    renderLoop(window, 1.0);
+    //renderLoop(window, 1.0);
+    renderLoop(window);
 
     shutdown(window);
     glfwTerminate();

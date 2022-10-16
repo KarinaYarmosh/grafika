@@ -61,6 +61,7 @@ GLuint Shader_Loader::CreateProgram(char* vertexShaderFilename,
 	char* fragmentShaderFilename)
 {
 
+
 	//wczytaj shadery
 	std::string vertex_shader_code = ReadShader(vertexShaderFilename);
 	std::string fragment_shader_code = ReadShader(fragmentShaderFilename);

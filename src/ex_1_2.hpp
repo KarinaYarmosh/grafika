@@ -2,9 +2,10 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
+#include <io.h>
 
-#include "Shader_Loader.h"
-#include "Render_Utils.h"
+#include "Shader_Loader.cpp"
+#include "Render_Utils.cpp"
 
 GLuint program; // Shader ID
 
@@ -12,6 +13,11 @@ GLuint triangleVAO;
 
 Core::Shader_Loader shaderLoader;
 
+//std::string get_working_path()
+//{
+//    char temp[100];
+//    return ( getcwd(temp, sizeof(temp)) ? std::string( temp ) : std::string("") );
+//}
 
 void renderScene(GLFWwindow* window)
 {
@@ -21,8 +27,8 @@ void renderScene(GLFWwindow* window)
     // Aktywowanie shadera
     glUseProgram(program);
 
-    //wywolaj funkcje drawVAO na triangleVAO 
-
+    //wywolaj funkcje Core::drawVAO z render utils z parametrem wejściowym GLuint triangleVAO
+    Core::drawVAO(triangleVAO, 3);
     // Wylaczenie shadera
     glUseProgram(0);
 
@@ -35,10 +41,18 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 }
 
 void init(GLFWwindow* window) {
+    //std::cout << get_working_path() << std::endl;
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-    program = shaderLoader.CreateProgram("shaders/shader_1_1.vert", "shaders/shader_1_1.frag");
+    program = shaderLoader.CreateProgram("../shaders/shader_1_1.vert", "../shaders/shader_1_1.frag");
 
     //stworz tablice wierzcholkow i zaladuj je do GPU za pomoca funkcji initVAO, wynik zapisz w triangleVAO
+    float points[] = {
+            -0.5,-0.5,0.,1.,
+            0.5,-0.5,0.,1.,
+            -0.5,0.5,0.,1.,
+    };
+    //3 elem po 4 w nim
+    triangleVAO = Core::initVAO(points, 3,4);
 }
 
 void shutdown(GLFWwindow* window)
@@ -63,5 +77,5 @@ void renderLoop(GLFWwindow* window) {
         renderScene(window);
         glfwPollEvents();
     }
-}   
+}
 //}
