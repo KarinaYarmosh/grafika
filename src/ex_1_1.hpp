@@ -8,15 +8,6 @@
 #include "Render_Utils.h"
 
 
-double GetTime()
-{
-    using Duration = std::chrono::duration<double>;
-    return std::chrono::duration_cast<Duration>(std::chrono::high_resolution_clock::now().time_since_epoch()).count();
-}
-
-const double frame_delay = 1.0 / 60.0; // 60 FPS
-
-
 float * randomRGBA() {
     auto * colors = new float [3];
     colors[0] = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
@@ -37,6 +28,7 @@ void renderScene(GLFWwindow* window)
     // Powinno byc wywolane po kazdej klatce
     glfwSwapBuffers(window);
 }
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
     glViewport(0, 0, width, height);

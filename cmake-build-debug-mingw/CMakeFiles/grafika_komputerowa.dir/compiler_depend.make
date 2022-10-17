@@ -437,7 +437,7 @@ CMakeFiles/grafika_komputerowa.dir/src/main.cpp.obj: ../src/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
   ../src/Render_Utils.h \
-  ../src/ex_1_5.hpp \
+  ../src/ex_1_6.hpp \
   ../src/Shader_Loader.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
@@ -1325,7 +1325,7 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
-../src/ex_1_5.hpp:
+../src/ex_1_6.hpp:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
 
